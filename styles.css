@@ -286,6 +286,10 @@ summary {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.demo-library-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .card {
   border: 1px solid var(--line);
   border-radius: 0.9rem;
@@ -322,6 +326,19 @@ summary {
   margin: 0.85rem 0 0;
   color: var(--ink);
   font-weight: 500;
+}
+
+.demo-link {
+  display: inline-flex;
+  margin-top: 0.45rem;
+  color: var(--teal-soft);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.demo-link:hover,
+.demo-link:focus-visible {
+  color: var(--teal);
 }
 
 .process-grid {
@@ -473,6 +490,10 @@ textarea:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .demo-library-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .price-card.featured {
     transform: translateY(0);
   }
@@ -504,6 +525,10 @@ textarea:focus-visible {
 
   .hero {
     padding-top: 4.3rem;
+  }
+
+  .demo-library-grid {
+    grid-template-columns: 1fr;
   }
 
   .footer-wrap {

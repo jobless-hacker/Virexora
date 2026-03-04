@@ -8,6 +8,7 @@ SEO-focused, conversion-first portfolio website for Virexora, built as a static 
 - Technical SEO essentials (metadata, schema, sitemap, robots)
 - Mobile-first responsive design
 - GitHub Pages compatible static architecture
+- Multi-industry demo library for client pitching (`/demos/`)
 
 ## Deploy URL
 

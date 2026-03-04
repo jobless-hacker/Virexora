@@ -3,42 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Restaurant Website Demo for Table Reservations | Virexora</title>
-  <meta name="description" content="Restaurant website demo optimized for menu visibility, local SEO, and reservation inquiries from mobile users.">
+  <title>Restaurant and Cafe Demo Website | Virexora</title>
+  <meta name="description" content="Restaurant and cafe website demo built for table reservations with menu architecture, local trust signals, and conversion-focused booking pathways.">
   <meta name="robots" content="noindex,follow,max-image-preview:large">
   <link rel="canonical" href="https://jobless-hacker.github.io/Virexora/demos/restaurant/">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Restaurant Website Demo for Table Reservations | Virexora">
-  <meta property="og:description" content="Restaurant website demo optimized for menu visibility, local SEO, and reservation inquiries from mobile users.">
+  <meta property="og:title" content="Restaurant and Cafe Demo Website | Virexora">
+  <meta property="og:description" content="A realistic restaurant website demo designed to turn menu discovery and local search traffic into table reservations.">
   <meta property="og:url" content="https://jobless-hacker.github.io/Virexora/demos/restaurant/">
   <meta property="og:image" content="https://jobless-hacker.github.io/Virexora/og-image.svg">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Restaurant Website Demo for Table Reservations | Virexora">
-  <meta name="twitter:description" content="Restaurant website demo optimized for menu visibility, local SEO, and reservation inquiries from mobile users.">
+  <meta name="twitter:title" content="Restaurant and Cafe Demo Website | Virexora">
+  <meta name="twitter:description" content="A realistic restaurant website demo designed to turn menu discovery and local search traffic into table reservations.">
   <meta name="twitter:image" content="https://jobless-hacker.github.io/Virexora/og-image.svg">
 
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../demo.css">
-  <style>
-    :root {
-      --primary: #5b2e20;
-      --accent: #f39c42;
-      --bg: #f9f1e8;
-      --hero: linear-gradient(130deg, #f6e8dc 0%, #fff7ef 100%);
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&family=Alegreya:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="restaurant-demo.css">
 
-    <script type="application/ld+json">
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Restaurant and Cafe Website Demo | Virexora",
-    "description": "Restaurant website demo optimized for menu visibility, local SEO, and reservation inquiries from mobile users.",
+    "name": "Restaurant and Cafe Demo Website | Virexora",
+    "description": "Restaurant and cafe website demo built for table reservations with menu architecture, local trust signals, and conversion-focused booking pathways.",
     "url": "https://jobless-hacker.github.io/Virexora/demos/restaurant/",
     "isPartOf": {
       "@type": "WebSite",
@@ -67,11 +59,11 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="../../">Virexora Demos</a>
-      <nav aria-label="Demo navigation">
+      <nav aria-label="Restaurant demo navigation">
         <ul class="nav-list">
-          <li><a href="#services">Services</a></li>
-          <li><a href="#seo">SEO Setup</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#menu">Menu Highlights</a></li>
+          <li><a href="#journey">Reservation Flow</a></li>
+          <li><a href="#proof">Guest Proof</a></li>
           <li><a href="#contact">Get This Site</a></li>
         </ul>
       </nav>
@@ -83,75 +75,164 @@
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">Restaurant and Cafe Demo Website</p>
-          <h1>Restaurant Website Demo for Reservations and Repeat Orders</h1>
-          <p class="subline">A conversion-driven restaurant design for cafe owners and food brands that need stronger local presence and bookings.</p>
+          <h1>Restaurant Website Built to Convert Local Search into Table Reservations</h1>
+          <p class="subline">This demo follows proven food-business patterns: menu-led discovery, location trust signals, event booking pathways, and conversion-first CTA placement.</p>
           <div class="btn-row">
             <a class="btn btn-primary" href="#contact">Request This Version</a>
-            <a class="btn btn-secondary" href="../">View All Demos</a>
+            <a class="btn btn-outline" href="../">View All Demos</a>
+          </div>
+
+          <div class="hero-metrics" aria-label="Sample restaurant performance metrics">
+            <article>
+              <p class="value">68%</p>
+              <p class="label">direct reservation share</p>
+            </article>
+            <article>
+              <p class="value">4.8/5</p>
+              <p class="label">average guest rating</p>
+            </article>
+            <article>
+              <p class="value">1,100+</p>
+              <p class="label">monthly table bookings</p>
+            </article>
           </div>
         </div>
-        <aside class="hero-box">
-          <h2>What this demo proves</h2>
+
+        <aside class="hero-card" aria-label="Guest quick actions">
+          <p class="kicker">Guest Actions</p>
           <ul>
-            <li>Clear industry positioning and service messaging</li>
-            <li>SEO-friendly structure for targeted keywords</li>
-            <li>Strong CTA flow for inquiry conversions</li>
+            <li>Browse menu categories and signature dishes quickly</li>
+            <li>Check opening hours, map location, and parking details</li>
+            <li>Reserve table or private dining slot by WhatsApp</li>
+            <li>Book event menu consultation for groups</li>
           </ul>
+          <a class="card-link" href="#journey">See reservation process</a>
         </aside>
       </div>
     </section>
 
-    <section class="section reveal" id="services">
+    <section class="section trust-strip reveal" aria-label="Restaurant trust markers">
+      <div class="container trust-grid">
+        <article>
+          <h3>Menu Transparency</h3>
+          <p>Signature categories and dining options are visible before reservation intent drops.</p>
+        </article>
+        <article>
+          <h3>Local Discovery Signals</h3>
+          <p>Address, timings, and quick-contact blocks are positioned for map and mobile traffic.</p>
+        </article>
+        <article>
+          <h3>Experience Positioning</h3>
+          <p>Ambience and service proof are highlighted where guests compare dine-out options.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="menu">
       <div class="container">
-        <h2>Core sections for Restaurant and Cafe businesses</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Offer Positioning</h3>
-            <p>Menu-focused layout with high-visibility order buttons</p>
+        <p class="section-kicker">Menu Highlights</p>
+        <h2>Menu architecture designed for guest decision and reservation conversion</h2>
+        <div class="cards menu-grid">
+          <article class="menu-card">
+            <p class="tag">Signature Plates</p>
+            <h3>Chef Specials and House Favorites</h3>
+            <p>Star dishes curated to convert first-time visitors into reservation intent.</p>
+            <ul>
+              <li>Best-selling highlight section</li>
+              <li>Dietary notes and pairing cues</li>
+              <li>Weekend featured menu blocks</li>
+            </ul>
           </article>
-          <article class="card">
-            <h3>Trust and Credibility</h3>
-            <p>Google Maps, timings, and location SEO section</p>
+          <article class="menu-card">
+            <p class="tag">Dining Format</p>
+            <h3>Family Dining and Casual Seating</h3>
+            <p>Dining formats explained for groups, families, and quick meet-up plans.</p>
+            <ul>
+              <li>Table capacity and seating zones</li>
+              <li>Peak-hour reservation advisories</li>
+              <li>Kid-friendly and group options</li>
+            </ul>
           </article>
-          <article class="card">
-            <h3>Lead Capture Flow</h3>
-            <p>Event and private dining inquiry forms</p>
+          <article class="menu-card">
+            <p class="tag">Events</p>
+            <h3>Private Dining and Celebrations</h3>
+            <p>Event booking flow for birthday, corporate, and private gathering enquiries.</p>
+            <ul>
+              <li>Custom package consultation prompt</li>
+              <li>Pre-booking menu planning support</li>
+              <li>Group reservation lead routing</li>
+            </ul>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section reveal" id="seo">
-      <div class="container seo-grid">
+    <section class="section reveal" id="journey">
+      <div class="container journey-wrap">
         <div>
-          <h2>SEO structure built into this layout</h2>
-          <ul class="seo-list">
-            <li>Structured content for near me and cuisine keywords</li>
-            <li>CTA placement tuned for walk-in and reservation traffic</li>
-            <li>Social proof zone for reviews and testimonials</li>
-          </ul>
+          <p class="section-kicker">Reservation Journey</p>
+          <h2>Inquiry-to-table flow built for fast booking conversion</h2>
         </div>
-        <div>
-          <h2>Why this converts better</h2>
-          <ul class="proof-list">
-            <li>Service-first headlines matched to buyer intent</li>
-            <li>Actionable CTAs in hero and contact zones</li>
-            <li>Fast, mobile-first page architecture</li>
-          </ul>
+        <ol class="timeline">
+          <li>
+            <h3>Discovery and Intent Capture</h3>
+            <p>Guest explores cuisine, timings, and table options before initiating contact.</p>
+          </li>
+          <li>
+            <h3>Availability and Slot Confirmation</h3>
+            <p>Table slot and guest count are confirmed quickly through call or WhatsApp.</p>
+          </li>
+          <li>
+            <h3>Visit Preparation</h3>
+            <p>Special requests, celebrations, and menu preferences are prepared before arrival.</p>
+          </li>
+          <li>
+            <h3>Dining and Follow-Up</h3>
+            <p>Guest feedback and repeat offer communication improve revisit conversion.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section reveal" id="proof">
+      <div class="container">
+        <p class="section-kicker">Guest Proof</p>
+        <h2>Trust block structure that improves reservation confidence</h2>
+        <div class="cards review-grid">
+          <article class="review-card">
+            <p>"Reservation was smooth and the ambience matched exactly what we saw online. Great experience."</p>
+            <h3>Weekend Guest</h3>
+            <p>Dinner reservation review</p>
+          </article>
+          <article class="review-card">
+            <p>"Their team coordinated our family celebration perfectly with menu customization and seating support."</p>
+            <h3>Family Event Host</h3>
+            <p>Private celebration booking</p>
+          </article>
+          <article class="review-card">
+            <p>"Easy booking, fast service, and excellent food consistency. We now reserve here regularly."</p>
+            <h3>Corporate Guest</h3>
+            <p>Group dining booking</p>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="section reveal" id="faq">
-      <div class="container details-wrap">
-        <h2>Client FAQ for this demo</h2>
+      <div class="container faq-wrap">
+        <p class="section-kicker">FAQ</p>
+        <h2>Common questions before restaurant booking</h2>
         <details>
-          <summary>Can this include online ordering integration?</summary>
-          <p>Yes. We can integrate with delivery links or custom order workflows.</p>
+          <summary>Can this website include online ordering and delivery links?</summary>
+          <p>Yes. We can integrate delivery partner links or direct ordering pathways.</p>
         </details>
         <details>
-          <summary>Can I update seasonal menus quickly?</summary>
-          <p>Yes. Menu sections can be structured for easy monthly updates.</p>
+          <summary>Can seasonal menu and festival campaign pages be added?</summary>
+          <p>Yes. We can launch campaign pages for festivals, weekend specials, and event offers.</p>
+        </details>
+        <details>
+          <summary>Can this support multiple restaurant branches?</summary>
+          <p>Yes. Branch-level location and reservation pages can be added with local SEO structure.</p>
         </details>
       </div>
     </section>
@@ -160,14 +241,16 @@
       <div class="container">
         <div class="cta-band">
           <div>
-            <h2>Want this website customized for your Restaurant and Cafe business?</h2>
-            <p>Built and delivered by Virexora with SEO setup and lead-ready conversion flow.</p>
+            <p class="section-kicker">Get This Demo</p>
+            <h2>Need this restaurant website customized for your menu and reservation flow?</h2>
+            <p>Built for local discoverability, table-booking growth, and repeat guest conversion.</p>
+            <p class="direct">Direct line: <a href="tel:+917036958163">+91 70369 58163</a></p>
           </div>
           <div class="btn-row">
-            <a class="btn btn-secondary" href="mailto:santoshtukaramfrds@gmail.com?subject=Request%20Restaurant and Cafe%20Website%20Demo">Email Us</a>
-            <a class="btn btn-secondary" href="https://wa.me/917036958163" target="_blank" rel="noopener">WhatsApp</a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn btn-secondary" href="https://www.instagram.com/eh_santhosh_goud/" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn btn-outline" href="mailto:santoshtukaramfrds@gmail.com?subject=Request%20Restaurant%20Cafe%20Website%20Demo">Email Us</a>
+            <a class="btn btn-outline" href="https://wa.me/917036958163" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-outline" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn-outline" href="https://www.instagram.com/eh_santhosh_goud/" target="_blank" rel="noopener">Instagram</a>
           </div>
         </div>
       </div>

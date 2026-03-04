@@ -3,42 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Auto Dealership Demo | Virexora</title>
-  <meta name="description" content="Automobile dealership website demo focused on inventory pages, financing prompts, and test-drive lead capture.">
+  <title>Automobile Dealership Demo Website | Virexora</title>
+  <meta name="description" content="Automobile dealership website demo designed for enquiries with inventory-first pages, finance workflow visibility, and test-drive conversion pathways.">
   <meta name="robots" content="noindex,follow,max-image-preview:large">
   <link rel="canonical" href="https://jobless-hacker.github.io/Virexora/demos/automobile-dealership/">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Auto Dealership Demo | Virexora">
-  <meta property="og:description" content="Automobile dealership website demo focused on inventory pages, financing prompts, and test-drive lead capture.">
+  <meta property="og:title" content="Automobile Dealership Demo Website | Virexora">
+  <meta property="og:description" content="A realistic dealership website demo built for vehicle lead generation through inventory architecture, trust blocks, and booking-focused CTAs.">
   <meta property="og:url" content="https://jobless-hacker.github.io/Virexora/demos/automobile-dealership/">
   <meta property="og:image" content="https://jobless-hacker.github.io/Virexora/og-image.svg">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Auto Dealership Demo | Virexora">
-  <meta name="twitter:description" content="Automobile dealership website demo focused on inventory pages, financing prompts, and test-drive lead capture.">
+  <meta name="twitter:title" content="Automobile Dealership Demo Website | Virexora">
+  <meta name="twitter:description" content="A realistic dealership website demo built for vehicle lead generation through inventory architecture, trust blocks, and booking-focused CTAs.">
   <meta name="twitter:image" content="https://jobless-hacker.github.io/Virexora/og-image.svg">
 
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../demo.css">
-  <style>
-    :root {
-      --primary: #2d313e;
-      --accent: #e0623f;
-      --bg: #f2f3f6;
-      --hero: linear-gradient(130deg, #e8eaf1 0%, #fff0ea 100%);
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Zilla+Slab:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="automobile-demo.css">
 
-    <script type="application/ld+json">
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Automobile Dealership Website Demo | Virexora",
-    "description": "Automobile dealership website demo focused on inventory pages, financing prompts, and test-drive lead capture.",
+    "name": "Automobile Dealership Demo Website | Virexora",
+    "description": "Automobile dealership website demo designed for enquiries with inventory-first pages, finance workflow visibility, and test-drive conversion pathways.",
     "url": "https://jobless-hacker.github.io/Virexora/demos/automobile-dealership/",
     "isPartOf": {
       "@type": "WebSite",
@@ -67,11 +59,11 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="../../">Virexora Demos</a>
-      <nav aria-label="Demo navigation">
+      <nav aria-label="Automobile demo navigation">
         <ul class="nav-list">
-          <li><a href="#services">Services</a></li>
-          <li><a href="#seo">SEO Setup</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#inventory">Inventory</a></li>
+          <li><a href="#funnel">Buying Flow</a></li>
+          <li><a href="#proof">Trust</a></li>
           <li><a href="#contact">Get This Site</a></li>
         </ul>
       </nav>
@@ -83,75 +75,164 @@
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">Automobile Dealership Demo Website</p>
-          <h1>Automobile Dealership Website Demo for Test Drive and Sales Leads</h1>
-          <p class="subline">Built for car and two-wheeler dealerships that need faster inventory inquiries and showroom visits.</p>
+          <h1>Dealership Website Built to Turn Vehicle Interest into Test-Drive Bookings</h1>
+          <p class="subline">This demo follows high-performing dealership patterns: inventory segmentation, finance clarity, trust-oriented proof, and conversion-first booking CTAs.</p>
           <div class="btn-row">
             <a class="btn btn-primary" href="#contact">Request This Version</a>
-            <a class="btn btn-secondary" href="../">View All Demos</a>
+            <a class="btn btn-outline" href="../">View All Demos</a>
+          </div>
+
+          <div class="hero-metrics" aria-label="Sample dealership performance metrics">
+            <article>
+              <p class="value">1,200+</p>
+              <p class="label">vehicles sold annually</p>
+            </article>
+            <article>
+              <p class="value">24h</p>
+              <p class="label">avg lead response window</p>
+            </article>
+            <article>
+              <p class="value">4.8/5</p>
+              <p class="label">customer review average</p>
+            </article>
           </div>
         </div>
-        <aside class="hero-box">
-          <h2>What this demo proves</h2>
+
+        <aside class="hero-card" aria-label="Buyer quick actions">
+          <p class="kicker">Buyer Actions</p>
           <ul>
-            <li>Clear industry positioning and service messaging</li>
-            <li>SEO-friendly structure for targeted keywords</li>
-            <li>Strong CTA flow for inquiry conversions</li>
+            <li>Browse by body type, price range, and fuel type</li>
+            <li>Book showroom visit or home test-drive slot</li>
+            <li>Check finance and EMI eligibility pathways</li>
+            <li>Start exchange valuation before booking</li>
           </ul>
+          <a class="card-link" href="#funnel">See conversion flow</a>
         </aside>
       </div>
     </section>
 
-    <section class="section reveal" id="services">
+    <section class="section trust-strip reveal" aria-label="Dealership trust architecture">
+      <div class="container trust-grid">
+        <article>
+          <h3>Inventory Transparency</h3>
+          <p>Model variants, pricing bands, and availability cues are visible before inquiry.</p>
+        </article>
+        <article>
+          <h3>Finance Clarity</h3>
+          <p>EMI and loan process information reduces friction during buying decisions.</p>
+        </article>
+        <article>
+          <h3>After-Sales Confidence</h3>
+          <p>Service and warranty support are positioned where buyer trust is evaluated.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="inventory">
       <div class="container">
-        <h2>Core sections for Automobile Dealership businesses</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Offer Positioning</h3>
-            <p>Vehicle listing pages with model highlights and feature blocks</p>
+        <p class="section-kicker">Inventory Structure</p>
+        <h2>Inventory pathways built for how vehicle buyers compare options</h2>
+        <div class="cards inventory-grid">
+          <article class="inventory-card">
+            <p class="tag">City Commute</p>
+            <h3>Hatchback and Compact Sedan Line</h3>
+            <p>Entry-level and family-ready vehicles with pricing and feature anchors.</p>
+            <ul>
+              <li>Fuel efficiency-first comparison blocks</li>
+              <li>Variant highlights with clear price bands</li>
+              <li>Fast test-drive CTA on list cards</li>
+            </ul>
           </article>
-          <article class="card">
-            <h3>Trust and Credibility</h3>
-            <p>Finance and exchange sections to reduce buyer hesitation</p>
+          <article class="inventory-card">
+            <p class="tag">Premium</p>
+            <h3>Executive Sedan and SUV Collection</h3>
+            <p>Performance and comfort segments with financing and trade-in prompts.</p>
+            <ul>
+              <li>Luxury feature storytelling section</li>
+              <li>Finance estimator entry points</li>
+              <li>Priority consultation flow</li>
+            </ul>
           </article>
-          <article class="card">
-            <h3>Lead Capture Flow</h3>
-            <p>Test-drive booking CTA flow for conversion-first user journey</p>
+          <article class="inventory-card">
+            <p class="tag">Utility</p>
+            <h3>Commercial and Fleet Options</h3>
+            <p>Business-oriented vehicle pathways for fleet and heavy-usage buyers.</p>
+            <ul>
+              <li>Bulk enquiry lead forms</li>
+              <li>Ownership cost clarity blocks</li>
+              <li>Dedicated business support CTA</li>
+            </ul>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section reveal" id="seo">
-      <div class="container seo-grid">
+    <section class="section reveal" id="funnel">
+      <div class="container funnel-wrap">
         <div>
-          <h2>SEO structure built into this layout</h2>
-          <ul class="seo-list">
-            <li>Search-focused structure for model, price, and city intent keywords</li>
-            <li>Inventory page hierarchy optimized for browsing and lead capture</li>
-            <li>High-visibility CTA placement for call, WhatsApp, and inquiry forms</li>
-          </ul>
+          <p class="section-kicker">Buying Journey</p>
+          <h2>Inquiry to delivery flow designed to reduce dealership drop-offs</h2>
         </div>
-        <div>
-          <h2>Why this converts better</h2>
-          <ul class="proof-list">
-            <li>Service-first headlines matched to buyer intent</li>
-            <li>Actionable CTAs in hero and contact zones</li>
-            <li>Fast, mobile-first page architecture</li>
-          </ul>
+        <ol class="timeline">
+          <li>
+            <h3>Discovery and Model Shortlist</h3>
+            <p>Buyers land on category pages and compare variants with clear filters.</p>
+          </li>
+          <li>
+            <h3>Test-Drive and Trade-In Evaluation</h3>
+            <p>Home/showroom test-drive booking and exchange valuation start early.</p>
+          </li>
+          <li>
+            <h3>Finance and Documentation</h3>
+            <p>Loan options, EMI plans, and paperwork sequence are explained clearly.</p>
+          </li>
+          <li>
+            <h3>Delivery and After-Sales Onboarding</h3>
+            <p>Vehicle handover, service milestones, and support channels are activated.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section reveal" id="proof">
+      <div class="container">
+        <p class="section-kicker">Customer Proof</p>
+        <h2>Trust content pattern used to increase qualified showroom leads</h2>
+        <div class="cards review-grid">
+          <article class="review-card">
+            <p>"Booked a test-drive in minutes and got transparent finance options before the showroom visit."</p>
+            <h3>Arun K.</h3>
+            <p>New hatchback purchase</p>
+          </article>
+          <article class="review-card">
+            <p>"Trade-in and delivery steps were clearly explained, and the process stayed exactly on schedule."</p>
+            <h3>Priyanka M.</h3>
+            <p>SUV upgrade customer</p>
+          </article>
+          <article class="review-card">
+            <p>"Our fleet inquiry was handled professionally with clear costing and fast turnaround."</p>
+            <h3>Operations Team</h3>
+            <p>Commercial fleet account</p>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="section reveal" id="faq">
-      <div class="container details-wrap">
-        <h2>Client FAQ for this demo</h2>
+      <div class="container faq-wrap">
+        <p class="section-kicker">FAQ</p>
+        <h2>Common dealership questions before booking</h2>
         <details>
-          <summary>Can this show multiple brand inventories together?</summary>
-          <p>Yes. Categories and filters can be configured by brand, segment, and price range.</p>
+          <summary>Can this website handle both new car and certified used car inventory?</summary>
+          <p>Yes. We can build separate inventory and lead pathways for new and pre-owned vehicle categories.</p>
         </details>
         <details>
-          <summary>Can we integrate lead forms to dealership CRM?</summary>
-          <p>Yes. Form submissions can be routed to your CRM or sales pipeline tools.</p>
+          <summary>Can finance pre-qualification forms be integrated?</summary>
+          <p>Yes. The layout supports loan enquiry and pre-qualification integration in implementation.</p>
+        </details>
+        <details>
+          <summary>Can local SEO pages be added for each showroom location?</summary>
+          <p>Yes. We can deploy geo-targeted pages for each branch with conversion-ready content blocks.</p>
         </details>
       </div>
     </section>
@@ -160,14 +241,16 @@
       <div class="container">
         <div class="cta-band">
           <div>
-            <h2>Want this website customized for your Automobile Dealership business?</h2>
-            <p>Built and delivered by Virexora with SEO setup and lead-ready conversion flow.</p>
+            <p class="section-kicker">Get This Demo</p>
+            <h2>Need this dealership website customized for your inventory and lead flow?</h2>
+            <p>Built for showroom conversion, local SEO discoverability, and high-intent buyer enquiries.</p>
+            <p class="direct">Direct line: <a href="tel:+917036958163">+91 70369 58163</a></p>
           </div>
           <div class="btn-row">
-            <a class="btn btn-secondary" href="mailto:santoshtukaramfrds@gmail.com?subject=Request%20Automobile Dealership%20Website%20Demo">Email Us</a>
-            <a class="btn btn-secondary" href="https://wa.me/917036958163" target="_blank" rel="noopener">WhatsApp</a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn btn-secondary" href="https://www.instagram.com/eh_santhosh_goud/" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn btn-outline" href="mailto:santoshtukaramfrds@gmail.com?subject=Request%20Automobile%20Dealership%20Website%20Demo">Email Us</a>
+            <a class="btn btn-outline" href="https://wa.me/917036958163" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-outline" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn-outline" href="https://www.instagram.com/eh_santhosh_goud/" target="_blank" rel="noopener">Instagram</a>
           </div>
         </div>
       </div>
@@ -176,7 +259,7 @@
 
   <footer class="site-footer">
     <div class="container footer-wrap">
-      <p>(c) <span data-year></span> DrivePort Motors demo by Virexora.</p>
+      <p>(c) <span data-year></span> DriveAxis Motors demo by Virexora.</p>
       <a href="../../">Back to Virexora</a>
     </div>
   </footer>

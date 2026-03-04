@@ -1,44 +1,36 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Healthcare Clinic Demo | Virexora</title>
-  <meta name="description" content="Healthcare clinic website demo for patient appointment requests, service trust, and local SEO visibility.">
+  <title>Healthcare Clinic Demo Website | Virexora</title>
+  <meta name="description" content="Healthcare clinic website demo designed for appointment growth with specialty pages, doctor profiles, trust signals, and conversion-focused patient flow.">
   <meta name="robots" content="noindex,follow,max-image-preview:large">
   <link rel="canonical" href="https://jobless-hacker.github.io/Virexora/demos/healthcare-clinic/">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Healthcare Clinic Demo | Virexora">
-  <meta property="og:description" content="Healthcare clinic website demo for patient appointment requests, service trust, and local SEO visibility.">
+  <meta property="og:title" content="Healthcare Clinic Demo Website | Virexora">
+  <meta property="og:description" content="A realistic healthcare website demo with patient-first UX, local SEO structure, and appointment conversion pathways.">
   <meta property="og:url" content="https://jobless-hacker.github.io/Virexora/demos/healthcare-clinic/">
   <meta property="og:image" content="https://jobless-hacker.github.io/Virexora/og-image.svg">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Healthcare Clinic Demo | Virexora">
-  <meta name="twitter:description" content="Healthcare clinic website demo for patient appointment requests, service trust, and local SEO visibility.">
+  <meta name="twitter:title" content="Healthcare Clinic Demo Website | Virexora">
+  <meta name="twitter:description" content="A realistic healthcare website demo with patient-first UX, local SEO structure, and appointment conversion pathways.">
   <meta name="twitter:image" content="https://jobless-hacker.github.io/Virexora/og-image.svg">
 
   <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../demo.css">
-  <style>
-    :root {
-      --primary: #1f5c65;
-      --accent: #46a7b2;
-      --bg: #eaf6f7;
-      --hero: linear-gradient(130deg, #e2f4f6 0%, #effdff 100%);
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="healthcare-demo.css">
 
-    <script type="application/ld+json">
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Healthcare Clinic Website Demo | Virexora",
-    "description": "Healthcare clinic website demo for patient appointment requests, service trust, and local SEO visibility.",
+    "name": "Healthcare Clinic Demo Website | Virexora",
+    "description": "Healthcare clinic website demo designed for appointment growth with specialty pages, doctor profiles, trust signals, and conversion-focused patient flow.",
     "url": "https://jobless-hacker.github.io/Virexora/demos/healthcare-clinic/",
     "isPartOf": {
       "@type": "WebSite",
@@ -67,11 +59,11 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="../../">Virexora Demos</a>
-      <nav aria-label="Demo navigation">
+      <nav aria-label="Healthcare demo navigation">
         <ul class="nav-list">
-          <li><a href="#services">Services</a></li>
-          <li><a href="#seo">SEO Setup</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#specialties">Specialties</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#journey">Patient Journey</a></li>
           <li><a href="#contact">Get This Site</a></li>
         </ul>
       </nav>
@@ -83,75 +75,170 @@
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">Healthcare Clinic Demo Website</p>
-          <h1>Healthcare Clinic Website Demo for Patient Appointment Growth</h1>
-          <p class="subline">A patient-friendly website layout for clinics that need trust, service clarity, and appointment inquiry conversion.</p>
+          <h1>Healthcare Website That Builds Patient Trust and Drives Appointments</h1>
+          <p class="subline">This demo reflects what modern multi-specialty clinics use: clear specialty navigation, doctor credibility, emergency-first contact actions, and local SEO page architecture.</p>
           <div class="btn-row">
             <a class="btn btn-primary" href="#contact">Request This Version</a>
-            <a class="btn btn-secondary" href="../">View All Demos</a>
+            <a class="btn btn-outline" href="../">View All Demos</a>
+          </div>
+
+          <div class="hero-stats" aria-label="Sample healthcare metrics">
+            <article>
+              <p class="stat-value">4.8/5</p>
+              <p class="stat-label">patient satisfaction</p>
+            </article>
+            <article>
+              <p class="stat-value">50K+</p>
+              <p class="stat-label">annual consultations</p>
+            </article>
+            <article>
+              <p class="stat-value">24/7</p>
+              <p class="stat-label">emergency support</p>
+            </article>
           </div>
         </div>
-        <aside class="hero-box">
-          <h2>What this demo proves</h2>
+
+        <aside class="hero-card" aria-label="Fast action options">
+          <p class="kicker">Quick Actions</p>
           <ul>
-            <li>Clear industry positioning and service messaging</li>
-            <li>SEO-friendly structure for targeted keywords</li>
-            <li>Strong CTA flow for inquiry conversions</li>
+            <li>Book consultation in under 60 seconds</li>
+            <li>Call emergency desk instantly</li>
+            <li>Find specialist by department</li>
+            <li>Access map, timings, and insurance info</li>
           </ul>
+          <a class="card-cta" href="#contact">Explore contact flow</a>
         </aside>
       </div>
     </section>
 
-    <section class="section reveal" id="services">
+    <section class="trust-strip section reveal" aria-label="Healthcare proof">
+      <div class="container trust-grid">
+        <article>
+          <h3>NABH-Aligned Protocols</h3>
+          <p>Care and safety communication blocks that reassure first-time patients.</p>
+        </article>
+        <article>
+          <h3>Specialist-Led Departments</h3>
+          <p>Department cards designed for both clinical trust and search intent.</p>
+        </article>
+        <article>
+          <h3>Insurance Assistance</h3>
+          <p>Clear billing and coverage messaging to reduce appointment friction.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="specialties">
       <div class="container">
-        <h2>Core sections for Healthcare Clinic businesses</h2>
-        <div class="cards">
+        <p class="section-kicker">Specialties</p>
+        <h2>Department structure built for patient decision flow</h2>
+        <div class="cards specialty-grid">
           <article class="card">
-            <h3>Offer Positioning</h3>
-            <p>Department and treatment sections with clear care pathways</p>
+            <h3>General Medicine</h3>
+            <p>Same-day consultations and preventive health check pathways.</p>
           </article>
           <article class="card">
-            <h3>Trust and Credibility</h3>
-            <p>Doctor profiles and patient-trust communication zones</p>
+            <h3>Cardiology</h3>
+            <p>Symptom-to-treatment pathway with diagnostic and follow-up modules.</p>
           </article>
           <article class="card">
-            <h3>Lead Capture Flow</h3>
-            <p>Appointment and emergency contact workflow for mobile users</p>
+            <h3>Orthopedics</h3>
+            <p>Injury care, mobility management, and rehab journey communication.</p>
+          </article>
+          <article class="card">
+            <h3>Pediatrics</h3>
+            <p>Family-focused pediatric pages with vaccination and routine care blocks.</p>
+          </article>
+          <article class="card">
+            <h3>Dermatology</h3>
+            <p>Condition-specific page structure for cosmetic and clinical concerns.</p>
+          </article>
+          <article class="card">
+            <h3>Diagnostics</h3>
+            <p>Test booking, report timelines, and patient prep instructions in one place.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section reveal" id="seo">
-      <div class="container seo-grid">
-        <div>
-          <h2>SEO structure built into this layout</h2>
-          <ul class="seo-list">
-            <li>SEO map for local healthcare and treatment-related search intent</li>
-            <li>Structured FAQ and metadata for stronger SERP relevance</li>
-            <li>Clear call and inquiry actions for patient convenience</li>
-          </ul>
+    <section class="section reveal" id="doctors">
+      <div class="container">
+        <p class="section-kicker">Doctor Profiles</p>
+        <h2>Authority-first specialist section for better consultation confidence</h2>
+        <div class="cards doctor-grid">
+          <article class="doctor-card">
+            <h3>Dr. A. Raman, MD</h3>
+            <p>Senior Physician | 14 years experience</p>
+            <ul>
+              <li>Chronic care and preventive medicine</li>
+              <li>Consultation hours clearly listed</li>
+              <li>Patient language preferences shown</li>
+            </ul>
+          </article>
+          <article class="doctor-card">
+            <h3>Dr. N. Iyer, DM Cardiology</h3>
+            <p>Interventional Cardiologist | 11 years experience</p>
+            <ul>
+              <li>Cardiac risk and treatment planning</li>
+              <li>Diagnostics and follow-up framework</li>
+              <li>Emergency response integration</li>
+            </ul>
+          </article>
+          <article class="doctor-card">
+            <h3>Dr. S. Mehta, MS Ortho</h3>
+            <p>Orthopedic Surgeon | 9 years experience</p>
+            <ul>
+              <li>Injury rehabilitation pathways</li>
+              <li>Surgery and recovery counseling</li>
+              <li>Sports and mobility protocol pages</li>
+            </ul>
+          </article>
         </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="journey">
+      <div class="container journey-wrap">
         <div>
-          <h2>Why this converts better</h2>
-          <ul class="proof-list">
-            <li>Service-first headlines matched to buyer intent</li>
-            <li>Actionable CTAs in hero and contact zones</li>
-            <li>Fast, mobile-first page architecture</li>
-          </ul>
+          <p class="section-kicker">Patient Journey</p>
+          <h2>Conversion-ready flow from symptom to appointment</h2>
         </div>
+        <ol class="timeline">
+          <li>
+            <h3>Search and Discovery</h3>
+            <p>Patients find specialty or symptom pages through local and intent keywords.</p>
+          </li>
+          <li>
+            <h3>Trust Validation</h3>
+            <p>Doctor credentials, reviews, care process, and facility proof build confidence.</p>
+          </li>
+          <li>
+            <h3>Appointment Action</h3>
+            <p>Book appointment, WhatsApp, and emergency call options are instantly accessible.</p>
+          </li>
+          <li>
+            <h3>Follow-up Retention</h3>
+            <p>Post-visit messaging and continuity pages improve repeat consultation behavior.</p>
+          </li>
+        </ol>
       </div>
     </section>
 
     <section class="section reveal" id="faq">
-      <div class="container details-wrap">
-        <h2>Client FAQ for this demo</h2>
+      <div class="container faq-wrap">
+        <p class="section-kicker">FAQ</p>
+        <h2>Common healthcare website pre-sales questions</h2>
         <details>
-          <summary>Can this support multi-specialty clinic navigation?</summary>
-          <p>Yes. Separate specialty sections and appointment flows can be added.</p>
+          <summary>Can this website support multiple clinics under one brand?</summary>
+          <p>Yes. We can add location pages, each with map, timings, local schema, and branch-specific doctor listings.</p>
         </details>
         <details>
-          <summary>Can patient reviews and testimonials be integrated?</summary>
-          <p>Yes. Trust modules can include testimonials with compliance-friendly formatting.</p>
+          <summary>Can appointment forms route to both email and WhatsApp?</summary>
+          <p>Yes. Form actions can be configured for dual routing with instant internal notification.</p>
+        </details>
+        <details>
+          <summary>Can treatment pages be expanded for SEO city targeting?</summary>
+          <p>Yes. We can create city + treatment pages with distinct content and conversion modules.</p>
         </details>
       </div>
     </section>
@@ -160,14 +247,15 @@
       <div class="container">
         <div class="cta-band">
           <div>
-            <h2>Want this website customized for your Healthcare Clinic business?</h2>
-            <p>Built and delivered by Virexora with SEO setup and lead-ready conversion flow.</p>
+            <p class="section-kicker">Get This Demo</p>
+            <h2>Want this healthcare website customized with your clinic branding?</h2>
+            <p>Delivered with local SEO setup, trust-first copywriting, and patient conversion structure.</p>
           </div>
           <div class="btn-row">
-            <a class="btn btn-secondary" href="mailto:santoshtukaramfrds@gmail.com?subject=Request%20Healthcare Clinic%20Website%20Demo">Email Us</a>
-            <a class="btn btn-secondary" href="https://wa.me/917036958163" target="_blank" rel="noopener">WhatsApp</a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn btn-secondary" href="https://www.instagram.com/eh_santhosh_goud/" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn btn-outline" href="mailto:santoshtukaramfrds@gmail.com?subject=Request%20Healthcare%20Clinic%20Website%20Demo">Email Us</a>
+            <a class="btn btn-outline" href="https://wa.me/917036958163" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-outline" href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btn-outline" href="https://www.instagram.com/eh_santhosh_goud/" target="_blank" rel="noopener">Instagram</a>
           </div>
         </div>
       </div>

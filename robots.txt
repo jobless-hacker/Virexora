@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://jobless-hacker.github.io/Virexora/sitemap.xml

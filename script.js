@@ -50,6 +50,6 @@ if (form) {
       `Name: ${name}\nEmail: ${email}\nService: ${service}\n\nProject Brief:\n${message}`
     );
 
-    window.location.href = `mailto:hello@virexora.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:santoshtukaramfrds@gmail.com?subject=${subject}&body=${body}`;
   });
 }

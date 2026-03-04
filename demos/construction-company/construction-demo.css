@@ -261,6 +261,7 @@ h3 {
 }
 
 .sector-grid,
+.capability-grid,
 .review-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -291,10 +292,34 @@ h3 {
   padding-left: 17px;
 }
 
-.delivery-wrap {
+.control-wrap {
   display: grid;
   grid-template-columns: 0.75fr 1.25fr;
   gap: 14px;
+}
+
+.control-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.mini-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+  padding: 14px;
+}
+
+.mini-card h3,
+.mini-card p {
+  margin: 0;
+}
+
+.mini-card p {
+  margin-top: 6px;
+}
+
+.pipeline-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .timeline {
@@ -394,8 +419,11 @@ summary {
   .hero-grid,
   .trust-grid,
   .sector-grid,
+  .capability-grid,
+  .control-grid,
+  .pipeline-grid,
   .review-grid,
-  .delivery-wrap {
+  .control-wrap {
     grid-template-columns: 1fr;
   }
 }

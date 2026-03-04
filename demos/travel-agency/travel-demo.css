@@ -261,6 +261,7 @@ h3 {
 }
 
 .package-grid,
+.deep-grid,
 .review-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -291,10 +292,34 @@ h3 {
   padding-left: 17px;
 }
 
-.journey-wrap {
+.flow-wrap {
   display: grid;
   grid-template-columns: 0.75fr 1.25fr;
   gap: 14px;
+}
+
+.mini-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.mini-card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+  padding: 14px;
+}
+
+.mini-card h3,
+.mini-card p {
+  margin: 0;
+}
+
+.mini-card p {
+  margin-top: 6px;
+}
+
+.operation-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .timeline {
@@ -353,6 +378,16 @@ summary {
   margin: 0;
 }
 
+.direct {
+  margin-top: 8px !important;
+}
+
+.direct a {
+  color: #184676;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .site-footer {
   padding: 24px 0;
 }
@@ -384,8 +419,11 @@ summary {
   .hero-grid,
   .trust-grid,
   .package-grid,
+  .deep-grid,
+  .mini-grid,
+  .operation-grid,
   .review-grid,
-  .journey-wrap {
+  .flow-wrap {
     grid-template-columns: 1fr;
   }
 }
